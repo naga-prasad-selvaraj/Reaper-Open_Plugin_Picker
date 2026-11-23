@@ -1,29 +1,22 @@
-# REAPER projects, backups, and rendered audio
-*.RPP
-*.RPP-bak
-*.rpp
-*.rpp-bak
-*.reapeaks
-*.wav
-*.mp3
-*.flac
-
-# Local plugin picker artwork and user state
-PluginPicker/Artwork/
-PluginPicker/Cache/
-PluginPicker/State/
-
 # Editor and operating-system files
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
 Desktop.ini
-.vscode/
-.idea/
 
-# Temporary and generated files
+# Temporary files and backups
 *.tmp
+*.temp
 *.bak
-*.log
-work/
-dist/
-build/
+*.old
+*~
+
+# REAPER local project and resource data
+*.RPP
+*.RPP-*
+reaper.ini
+reaper-kb.ini
+
+# Local plugin artwork and user data
+PluginPicker/Artwork/
